@@ -17,7 +17,7 @@ footer {
 }
 
 html {
-  background: blueviolet url(/images/textures/light1a.png);
+  background: blueviolet url(https://codeavengers.com/images/textures/light1a.png);
   color: indigo;
   font: normal 18px 'century gothic', sans-serif;
   margin: 0 auto 0 auto;
@@ -45,5 +45,5 @@ img {
 }
 
 ul{
-  list-style-image: url(/images/icons/icon18.png);
+  list-style-image: url(https:codeavengers.com/images/icons/icon18.png);
 }

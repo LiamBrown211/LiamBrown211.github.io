@@ -1,1 +1,49 @@
+@import url(//fonts.googleapis.com/css?family=Ubuntu);
 
+a {
+  color: indigo;
+  text-decoration: none;
+}
+
+a:hover {
+  color: purple;
+}
+
+footer {
+  border: 5px ridge mediumpurple;
+  color: mediumpurple;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+html {
+  background: blueviolet url(/images/textures/light1a.png);
+  color: indigo;
+  font: normal 18px 'century gothic', sans-serif;
+  margin: 0 auto 0 auto;
+  width: 320px;
+}
+
+h1 {
+  border: 10px ridge mediumpurple;
+  color: indigo;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 27px;
+  text-align: center;
+  text-shadow: 0px 3px 5px blueviolet;
+}
+
+h2 {
+  border: 10px ridge mediumpurple;
+  color: indigo;
+  font-family: 'Ubuntu', sans-serif;
+  text-align: center;
+}
+
+img {
+  border: 12px ridge mediumpurple;
+}
+
+ul{
+  list-style-image: url(/images/icons/icon18.png);
+}

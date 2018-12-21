@@ -1,55 +1,44 @@
-html {
-  background-color: lightblue;
+@import url(//fonts.googleapis.com/css?family=Ubuntu);
+
+a {
+  color: snow;
+  text-decoration: none;
 }
 
-p {	
-  background-color: lightblue; /*background color of everything inside paragraphs*/
-  color: black /*font color*/
+a:hover {
+  color: lavenderblush;
+  text-decoration: underline;
 }
 
-img {
-  border-style: inset; /*other options are dotted, dashed, double, groove, ridge, outset, and none*/
-  border-width: 4px;
-  border_color: mediumSlateBlue; /*you need to first have a style before you can set a color!*/
-	
-  width: 115px; /*if there's both a width here and in the <img width=""> then which one gets used? */
+a:visited {
+  color: lavenderblush;
 }
 
 h1 {
-  font-family: 'Trebuchet MS', sans-serif; 
-  font-size: 48px;
-  color: black;
-  font-weight: normal; /*google search other property value options for font-weight in css*/
+  color: lavenderblush;
+  font-family: 'Ubuntu', sans-serif;
 }
 
 h2 {
-  margin-top: 12px;
-  margin-right: 10px; 
-  margin-bottom: 8px;
-  margin-left: 16px; 
+  font-family: 'century gothic', sans-serif;
 }
 
-
-h3 {
-  margin: 0 auto 0 auto; 
-  box-shadow: 2px -5px 3px 4px black;  	/*in order: left/right, up/down, blur, spread, color 
-                                          play around with this on codeavengers where you can instantly see the change! */
+html {
+  background-color: thistle;
+  color: snow;
+  font-family: 'century gothic', sans-serif;
+  text-align: center;
 }
 
-h4 {
-  text-shadow: 2px -5px 3px lightBlue;  	/*in order: left/right, up/down, blur, color */
+img {
+  border: 10px ridge lavenderblush;
+  margin: 10px;
 }
 
-
-h5 {
-  text-shadow: 2px -5px 3px LightBlue, 0px -2px 10px black;  	
+ol {
+  text-align: left;
 }
 
-header {
-  text-align: center; /*can also be left, right, and justify*/	
-}
-
-a {
-  text-decoration: none;	/*you can also put underline, line-through, or overline for values"*/
-  color: pink; 
+ul {
+  text-align: left;
 }

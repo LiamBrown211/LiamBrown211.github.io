@@ -6,16 +6,16 @@ a {
 }
 
 a:hover {
-  color: lightsteelblue;
+  color: lavenderblush;
   text-decoration: underline;
 }
 
 a:visited {
-  color: lightsteelblue;
+  color: lavenderblush;
 }
 
 h1 {
-  color: lightsteelblue;
+  color: lavenderblush;
   font-family: 'Ubuntu', sans-serif;
 }
 
@@ -24,14 +24,14 @@ h2 {
 }
 
 html {
-  background-color: thistle;
+  background-color: lightsteelblue;
   color: snow;
   font-family: 'century gothic', sans-serif;
   text-align: center;
 }
 
 img {
-  border: 10px ridge lightsteelblue;
+  border: 10px ridge lavenderblush;
   margin: 10px;
 }
 
